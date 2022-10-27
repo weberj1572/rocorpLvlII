@@ -1,0 +1,13 @@
+Failed to load secrets file: [Errno 2] No such file or directory: '/Users/jw_newos/automation/roboCorpCert/py_lvl_two/devdata/vault.json'
+Traceback (most recent call last):
+  File "/Users/jw_newos/automation/roboCorpCert/py_lvl_two/task.py", line 155, in <module>
+    main()
+  File "/Users/jw_newos/automation/roboCorpCert/py_lvl_two/task.py", line 143, in main
+    open_order_website()
+  File "/Users/jw_newos/automation/roboCorpCert/py_lvl_two/task.py", line 43, in open_order_website
+    secret = Vault().get_secret("SpareBinIndustries")
+  File "/Users/Shared/robocorp/ht/6dc8728_b1f3c24_691db988/lib/python3.9/site-packages/RPA/Robocorp/Vault.py", line 569, in get_secret
+    return self.adapter.get_secret(secret_name)
+  File "/Users/Shared/robocorp/ht/6dc8728_b1f3c24_691db988/lib/python3.9/site-packages/RPA/Robocorp/Vault.py", line 180, in get_secret
+    raise KeyError(f"Undefined secret: {secret_name}")
+KeyError: 'Undefined secret: SpareBinIndustries'

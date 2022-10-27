@@ -1,0 +1,3 @@
+{"level":30,"time":"2022-10-27T03:13:57.373Z","pid":21636,"hostname":"Jons-MacBook-Pro.local","msg":"Listening on 55762"}
+{"level":30,"time":"2022-10-27T03:13:57.488Z","pid":21636,"hostname":"Jons-MacBook-Pro.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-10-27T03:13:57.488Z","pid":21636,"hostname":"Jons-MacBook-Pro.local","msg":"End of node method closeAllBrowsers"}
